@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.container-flex{
+ display: flex;
+
+ /* Aside */
+}
+img{
+    width: 150px;
+}
+h2{
+    text-transform: uppercase;
+    color: rgb(154, 154, 223);
+}
+h4{
+    text-transform: uppercase;
+    color: rgb(155, 165, 228);
+}
+h1{
+    text-transform: uppercase;
+}
+a{
+    color: rgb(217, 205, 183);
+}
+.hob{
+    color:rgb(217, 205, 183) ;
+}
+
+aside{
+    width: 40%;
+    border: 1px solid white;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Main */
+.skills{
+    text-align: right;
+    padding-top:3px;
+    padding-bottom:3px;
+   
+}
+.container{
+    border: 1px solid white;
+}
+.html{
+    width: 70%;
+    background-color: rgb(63, 91, 151);
+}
+.css{
+    width: 60%;
+    background-color: rgb(63, 91, 151);
+}
+.java{
+    width: 20%;
+    background-color: rgb(63, 91, 151);
+}
+.main{
+    margin-left: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    border: 1px solid white;
+}
+.cv{
+  border-radius: 10px ;
+  border: 1px solid white;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  text-align: center;
+  margin: auto;
+}
+.cv:hover{
+    cursor: pointer;
+    color: white;
+}
+.edu{
+    color: rgb(227, 134, 134);
+}
+.links:hover{
+    color: white;
+}
+/* Media Query */
+@media (max-width:786px) {
+    .container-flex{
+        flex-direction: column;
+    }
+    aside,.main{
+        width: 100%;
+    }
+    .main{
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width:788px) {
+    #myName{
+        font-size: 60px;
+    }
+}

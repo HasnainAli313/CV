@@ -5,70 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="./cv.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Aside  -->
-    <aside>
-        <!-- Profile -->
-        <img title="Profile Pic" src="./Pic2.png" alt="Profile Pic">
-        <h2 >Profile</h2>
-        <!-- Biography -->
-        <p>I am a BSCS Student at the University
-            of Peshawar and eager to learn Web
-            Development and take it up from
-            Frontend to full stack development, I
-           am familiar with HTML and
-            CSS and learning JavaScript</p>
-          
+    <div class="container-flex">
+        <!-- Aside  -->
+        <aside>
+            <!-- Profile -->
+            <img title="Profile Pic" src="./Pic2.png" alt="Profile Pic">
+            <h2>Profile</h2>
+            <!-- Biography -->
+            <p>I'm BSCS Student at the <em>University
+                of Peshawar</em> and learning Web Development at <strong> SMIT Peshawar</strong>, where I am learing Full Stack Web Development, with this I am also familiar with 
+                HTML, CSS & JavaScript and practing with time to time,I am passionate to make my career in Full Stack Web Development. 
+            </p>
+
             <!--Contact  -->
-        <h2>Contact</h2>
-        <h4>LinkedIn</h4>
-        <a href="https://www.linkedin.com/in/hasnainali313/" target="_blank">HasnainAli313</a>
+            <h2>Contact</h2>
+            <h4>LinkedIn</h4>
+            <a class="links" href="https://www.linkedin.com/in/hasnainali313/" target="_blank">HasnainAli313</a>
 
-        <h4>GitHub</h4>
-        <a href="https://github.com/HasnainAli313" target="_blank">HasnainAli313</a>
+            <h4>GitHub</h4>
+            <a class="links" href="https://github.com/HasnainAli313" target="_blank">HasnainAli313</a>
 
-        <h4>Email</h4>
-        <a href="mailto:aliorakzai407@gmail.com">aliorakzai407@gmail.com</a>
+            <h4>Email</h4>
+            <a class="links" href="mailto:aliorakzai407@gmail.com">aliorakzai407@gmail.com</a>
 
-        <h4>Hobbies</h4>
-       <p class="hob">Gaming</p>
-       <p class="hob">Badminton</p>
-       <p class="hob">Googling</p>
-    </aside>
+            <h4>Hobbies</h4>
+            <p class="hob">Gaming</p>
+            <p class="hob">Badminton</p>
+            <p class="hob">Googling</p>
+        </aside>
 
-    <!-- Main  -->
-    <section class="main">
-        <h1>Hasnain Ali</h1>
-        <!-- Education -->
-        <h4>Education</h4>
-        <p><strong>University Of Peshawar</strong>
-        <br>Since 2021
-    <br>Bachelor's Computer Science</p>
-        <p><strong>Army Public School & College Iqbal ASC Center, Nowshera Cantt</strong>
-        <br>2019-2021
-    <br>Marks:800/1100, Grade A <br>
-        Intermediate (Pre-Engineering)</p>
-        <p><strong>Army Public School & College Zamzama, Nowshera Cantt</strong>
-        <br>2017-2019
-    <br>Marks:775/1100, Grade A <br>
-       Matriculation-Computer Science</p>
+        <!-- Main  -->
+        <section class="main">
+            <h1 id="myName">Hasnain Ali</h1>
+            <!-- Education -->
+            <h4>Education</h4>
+            <p class="edu"><strong>University Of Peshawar</strong></p>
+            <p>Since 2021</p>
+            <p>Bachelor's Computer Science</p>
+            <p class="edu"><strong>Army Public School & College Iqbal ASC Center, Nowshera Cantt</strong></p>
+            <p>2019-2021</p>
+            <p>Marks:800/1100, Grade A </p>
+            <p>Intermediate (Pre-Engineering)</p>
+            <p class="edu"><strong>Army Public School & College Zamzama, Nowshera Cantt</strong></p>
+            <p>2017-2019</p>
+            <p>Marks:775/1100, Grade A</p>
+            <p>Matriculation-Computer Science</p>
 
-       <!-- Skills -->
-       <h4>Skills</h4>
-       <p>HTML/CSS</p>
-      <div class="container">
-        <div class="skills html">70%</div>
-      </div>
-       <p>JavaScript</p>
-      <div class="container">
-        <div class="skills java">20%</div>
-      </div>
-      <br>
-      <a class="cv" href="/Hasnain Ali cv.pdf" download="">Download CV</a>
-    </section>
+            <!-- Skills -->
+            <h4>Skills</h4>
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">70%</div>
+            </div>
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">60%</div>
+            </div>
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills java">20%</div>
+            </div>
+            <br>
+            <a class="cv" type="button" href="/Hasnain Ali cv.pdf" download="">Download CV</a>
+        </section>
+    </div>
 </body>
 
 </html>
